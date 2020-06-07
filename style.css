@@ -1,8 +1,12 @@
 body{
-    background-image: url('bgi.jpg');
+    background-image: url('bgi2.jpg');
+    background-position: right 23%;
+    background-repeat: no-repeat;
 }
 header{
     font-size: 14px;
-    color: white;
+    color: cyan;
     flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
 }
