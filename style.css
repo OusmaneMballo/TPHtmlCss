@@ -41,9 +41,29 @@ hr{
     overflow: hidden;
 }
 .title{
-    color:rgb(222, 245, 241);
+    color:#eef7f5;
     text-align: center;
     margin-top: 150px;
-    font-family: Arial, sans-serif;
+    
     font-size: xx-large;
 }
+.conteneur{
+    display: flex;
+    justify-content: center;
+    background-color:none;
+    color: rgb(238, 247, 245);
+}
+.conteneur > div {
+    width: 310px;
+    margin:0%;
+    padding: 0%;
+    text-align: center;
+    line-height: 2px;
+    font-size: 25px;
+    color: rgb(238, 247, 245);
+  }
+  .text{
+      font-size: xx-small;
+      color:rgba(145, 177, 172, 0.897);
+      font-family: Arial, sans-serif;
+  }
